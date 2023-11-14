@@ -24,27 +24,6 @@ Text            font, text, line-height, letter-spacing, color
 List            list-style
 Table           caption-side, empty-cells, table-layout */
 
-/* COMMON SETUPS
-
-flex-box with list items:
-
-    .container {
-        display: flex;
-        justify-content: ;
-        align-items: ;
-        align-content: ;
-        flex-flow: row/col wrap/wrap-reverse;
-        
-    ul {
-        list-style: none;
-    }
-
-    li {
-        display: inline-block
-    }
-
-*/
-
 * {
     margin: 0;
     padding-left: 0;
@@ -53,4 +32,38 @@ flex-box with list items:
 
 html {
     font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+h1, h2, a, p {
+    text-align: center;
+}
+
+h1, h2 {
+    color: white;
+}
+
+h1 {
+    font-size: 3.125rem;
+}
+
+h2 {
+    font-size: 2.625rem;
+}
+
+a {
+    color: aquamarine;
+}
+
+p {
+    font-size: 1.3125rem;
+    color: gray
+}
+
+.copyright {
+    text-align: right;
 }
